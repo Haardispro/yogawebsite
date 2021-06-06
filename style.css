@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300&display=swap');
+body{
+    margin: 0%;
+    padding: 0%;
+    background: url(background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+.nav-bar{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+    
+}
+
+.nav-bar a{
+    float: left;
+    padding: 10px 20px;
+    font-size: 30px;
+    font-family: 'Noto Sans TC';
+    color: black;
+    text-decoration: none;
+}
